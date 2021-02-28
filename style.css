@@ -1,6 +1,6 @@
 
   body {
-    background-color: #7AC5CD;
+    background-color:whitesmoke;
   }
   
   * {
@@ -29,26 +29,75 @@
   }
   
   .main label {
-    color: white;
     font-size: 20px;
     
   }
+
+.logo{
+    position: absolute;
+    top: 2%;
+    left: 40%;
+    max-width: 400px;
+    box-shadow: 0 0 1em black;
+
+}
+
+.link{
+    position: absolute;
+    top: 5%;
+    left: 70%;
+    text-decoration: none;
+    font-size:20px;
+}
+.icon-link{
+    position: absolute;
+    left: 5%;
+    max-width: 50px;
+    max-height: 50px;
+
+}
+.button{
+    position: absolute;
+    top: 10%;
+    left: 72%;
+    text-decoration: none;
+    font-size:20px;
+    width:200px;
+    height:75px;
+    text-align: center;
+    background-color:#49bafe;
+    font-style: italic;
+    color: white;
+    
+}
+.titulo{
+    position:absolute;
+    top: 20%;
+    left: 39.5%;
+    font-size: 25px;
+    font-family: "Optima" sans-serif;
+}
+
   .label1{
     position: absolute;
     top: 15%;
     left: 20%;
+    color: white;
   }
 
   .label2{
     position: absolute;
     top: 50%;
     left: 20%;
+    color: white;
+
   }
 
   .label3{
     position: absolute;
     top: 50%;
     left: 42%;
+    color: white;
 
   }
 
@@ -56,15 +105,261 @@
     position: absolute;
     top: 40%;
     right: 20%;
-
+    color: white;
   }
 
   .footer{
     position: absolute;
-    bottom: 0;
+    bottom: -25%;
     left: 0;
     width: 100%;
     height: 10%;
     background-color: black;
 
   }
+
+  img{
+    position: absolute;
+    top: 12%;
+    left: 12%;
+    max-width: 250px;
+    max-height:200px;
+    width: auto;
+    height: auto;
+  }
+
+  .nome1{
+      position: relative;
+      top: 65%;
+      left: 15%;
+  }
+
+  .alinhar{
+    position: relative;
+    top: 65%;
+    left: 25%;
+
+
+  }
+.alinhar1{
+    position: relative;
+    top: 65%;
+    left: 10%;
+
+}
+.alinhar2{
+    position: relative;
+    top: 65%;
+    left: 5%;
+
+}
+.alinhar3{
+    position: relative;
+    top: 65%;
+    left: 10%;
+
+}
+
+.alinhar4{
+    position: relative;
+    top: 65%;
+    left: 30%;
+
+}
+.alinhar5{
+    position: relative;
+    top: 65%;
+    left: 20%;
+
+}
+.alinhaR{
+    position: relative;
+    top: 65%;
+    left: 5%;
+}
+
+
+  .nome2{
+    position: absolute;
+    top: 65%;
+    left: 35%;
+
+  }
+
+  .nome3{
+    position: absolute;
+    top: 65%;
+    left: 20%;
+}
+
+.nome4{
+    position: absolute;
+    top: 65%;
+    left: 25%;
+}
+
+.nome5{
+    position: absolute;
+    top: 65%;
+    left: 30%;
+}
+
+.belly{
+    position: absolute;
+    left: 48%;
+
+}
+.belly1{
+    position: absolute;
+    left: 50%;
+
+}
+
+.bellyf{
+    position: absolute;
+    left: 53%;
+
+}
+.bellyc{
+    position: absolute;
+    left: 73%;
+
+}
+
+.card1{
+    position:absolute;
+    top: 25%;
+    left: 5%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+
+
+.card2{
+    position:absolute;
+    top: 25%;
+    left: 20%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+.card3{
+    position:absolute;
+    top: 25%;
+    left: 35%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+
+.card4{
+    position:absolute;
+    top: 25%;
+    left: 50%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+
+.card5{
+    position:absolute;
+    top: 25%;
+    left: 65%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+
+.card6{
+    position:absolute;
+    top: 25%;
+    left: 80%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+.card7{
+    position:absolute;
+    top: 70%;
+    left: 20%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+.card8{
+    position:absolute;
+    top: 70%;
+    left: 35%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+.card9{
+    position:absolute;
+    top: 70%;
+    left: 50%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+
+.card10{
+    position:absolute;
+    top: 70%;
+    left: 65%;
+    width: 270px;
+    height:400px;
+    background-color: whitesmoke;
+    border-radius: 5px;
+    box-shadow: 0 0 1em black;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
